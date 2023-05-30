@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="show"> </p>
+    <script>
+         let startsecond =parseInt( prompt("enter"));
+          let myDate = new Date();
+            currentsecond = myDate.setSeconds();
+        setInterval(function(){ 
+            let myDate = new Date();
+          let scnd = myDate.setSeconds(currentsecond);
+        document.getElementById("show").innerHTML="second:"+scnd;
+        
+        
+        })
+
+
+
+       
+
+
+
+
+
+    </script>
+</body>
+</html>
